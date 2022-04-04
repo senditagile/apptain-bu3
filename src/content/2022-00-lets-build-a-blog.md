@@ -1,6 +1,6 @@
 ---
 template: blog-post
-title: Build a Beautiful Modern Blog, Speed Up Your Learning and Your Websites - Demonstrate and Explain React, Node, DevOps, Netlify, CMS, Gatsby, Static Site Generators, HTML, CSS, JavaScript 
+title: Build a Beautiful Modern Blog and Jumpstart Your Online Presense, Speed Up Your Learning and Your Websites - Demonstrate and Explain React, Node, DevOps, Netlify, CMS, Gatsby, Static Site Generators, HTML, CSS, JavaScript 
 id: build-a-blog
 slug: learn-code-build-website-blog-react-node-gatsby-netlify-ci-cd-free
 date: 2022-01-20 12:46
