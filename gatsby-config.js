@@ -1,6 +1,8 @@
 const path = require('path');
 const tailwind = require('tailwindcss');
 
+const settings = require("./data/template/config.json");
+
 const netlifyCmsPaths = {
   resolve: `gatsby-plugin-netlify-cms-paths`,
   options: {
@@ -149,7 +151,65 @@ module.exports = {
         ],
       },
     },
-    'gatsby-plugin-catch-links',
+    {
+			resolve: `gatsby-plugin-feed`,
+			options: {
+				feeds: [
+					{
+						output: '/rss.xml',
+						title: settings.meta.title,
+						site_url: settings.url,
+						feed_url: `${settings.url}/rss.xml`,
+						language: 'en',
+						ttl: 10080,
+						serialize: ({ query: { site, allMarkdownRemark } }) => {
+							return allMarkdownRemark.edges.map(edge => {
+								return Object.assign({}, edge.node.frontmatter, {
+									description: edge.node.frontmatter.description || edge.node.excerpt,
+									date: edge.node.frontmatter.date,
+									author: settings.meta.author,
+									title: edge.node.frontmatter.title,
+									// categories: [edge.node.frontmatter.category],
+									url: settings.meta.siteUrl + '/' + edge.node.frontmatter.slug,
+									guid: settings.meta.siteUrl + '/' + edge.node.frontmatter.slug,
+									custom_elements: [
+										{ 'content:encoded': edge.node.html },
+										//{ reading_time: edge.node.fields.readingTime.text },
+									],
+								});
+							});
+						},
+            query: `
+            {
+              allMarkdownRemark(
+                limit: 1000
+                sort: { order: DESC, fields: frontmatter___date }
+              ) {
+                edges {
+                  node {
+                    id
+                    html
+                    frontmatter {
+                      template
+                      slug
+                      id
+                      title
+                      url: slug
+                      date
+                      tags
+                      description
+                      headerImage
+                    }
+                  }
+                }
+              }
+            }
+						`,
+					},
+				],
+			},
+		},
+    // 'gatsby-plugin-catch-links',
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 };

@@ -1,8 +1,8 @@
 # Henlo (v0.6.0)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/43532afb-3488-432b-8185-a745645a90d8/deploy-status)](https://app.netlify.com/sites/henlo/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/43532afb-3488-432b-8185-a745645a90d8/deploy-status)](https://app.netlify.com/sites/apptain/deploys)
 
-[Official Website / Demo](https://henlo.netlify.app/)
+[Official Website / Demo](https://apptain.netlify.app/)
 
 **Note:** This starter uses [Gatsby v4](https://www.gatsbyjs.com/blog/gatsby-v4/) with updated `gatsby-plugin-image`.
 
@@ -37,14 +37,14 @@ It follows the [JAMstack architecture](https://jamstack.org) by using Git as a s
 
 Netlify CMS can run in any frontend web environment, but the quickest way to try it out is by running it on a pre-configured starter site with Netlify. The example here is the Kaldi coffee company template (adapted from [Gatsby Starter Netlify CMS](https://github.com/netlify-templates/gatsby-starter-netlify-cms)). Use the button below to build and deploy your own copy of the repository:
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/clean-commit/gatsby-starter-henlo"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/clean-commit/gatsby-starter-apptain"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
 
 After clicking that button, you’ll authenticate with GitHub and choose a repository name. Netlify will then automatically create a repository in your GitHub account with a copy of the files from the template. Next, it will build and deploy the new site on Netlify, bringing you to the site dashboard when the build is complete. Next, you’ll need to set up Netlify’s Identity service to authorize users to log in to the CMS.
 
 ## Getting Started (Without Netlify)
 
 ```
-$ gatsby new [SITE_DIRECTORY_NAME] https://github.com/clean-commit/gatsby-starter-henlo
+$ gatsby new [SITE_DIRECTORY_NAME] https://github.com/clean-commit/gatsby-starter-apptain
 $ cd [SITE_DIRECTORY_NAME]
 $ yarn start
 ```
@@ -231,6 +231,6 @@ please read the [code of conduct](CODE_OF_CONDUCT.md).
 
 Here's a list of helpful articles that will help you with your first steps using Henlo!
 
-- [Efficient Netlify CMS config with Manual Initialization](https://mrkaluzny.com/blog/dry-netlify-cms-config-with-manual-initialization?utm_source=GitHub&utm_medium=henlo-gatsby)
-- [How to optimize SEO with Gatsby & Netlify](https://mrkaluzny.com/blog/how-to-optimize-seo-with-gatsby-netlify?utm_source=GitHub&utm_medium=henlo-gatsby)
-- [https://mrkaluzny.com/blog/full-text-search-with-gatsby-and-netlify-cms/](https://mrkaluzny.com/blog/full-text-search-with-gatsby-and-netlify-cms?utm_source=GitHub&utm_medium=henlo-gatsby)
+- [Efficient Netlify CMS config with Manual Initialization](https://mrkaluzny.com/blog/dry-netlify-cms-config-with-manual-initialization?utm_source=GitHub&utm_medium=apptain-gatsby)
+- [How to optimize SEO with Gatsby & Netlify](https://mrkaluzny.com/blog/how-to-optimize-seo-with-gatsby-netlify?utm_source=GitHub&utm_medium=apptain-gatsby)
+- [https://mrkaluzny.com/blog/full-text-search-with-gatsby-and-netlify-cms/](https://mrkaluzny.com/blog/full-text-search-with-gatsby-and-netlify-cms?utm_source=GitHub&utm_medium=apptain-gatsby)
