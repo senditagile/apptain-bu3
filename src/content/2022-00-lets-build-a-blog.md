@@ -1,17 +1,66 @@
 ---
 template: blog-post
-title: Fullstack by Example
-id: fullstack-by-example
-slug: fullstack-by-example
+title: Build a Beautiful Modern Blog, Speed Up Your Learning and Your Websites - Demonstrate and Explain React, Node, DevOps, Netlify, CMS, Gatsby, Static Site Generators, HTML, CSS, JavaScript 
+id: build-a-blog
+slug: learn-code-build-website-blog-react-node-gatsby-netlify-ci-cd-free
 date: 2022-01-20 12:46
-description: A different way of teaching fullstack software development
+description: From  experience level Ask you to install a few tools on your rig if you're following along.  got plenty of explanations and'll show 
 headerImage: https://ucarecdn.com/4ab3efc9-4006-4e1e-8684-421cabb82acd/sendittelltheworld.png
 published: true
 tags: 
   - fullstack
 ---
 
-Let's build an app. Le
+Tech jargon is a language no one grows up speaking. (put your sevant kid to work why don't you...)It can be painful to the ear for even the most hardcorde of us geeks. Who wants to learn a glossary of isoteric sounding names and acroymns? (you do! coming soon..) 
+
+No pain, no gain. This won't hurt though :)
+ 
+We'll develop and deploy a blazing fast website, and you can be an experience fullstack developer in minutes, with your own cloud CMS, github source control repository, automated builds and releases, and your own snazzy blog to share your adventures from. Or just read on and I'll do my best to educate, entertain and charm you through some geek speak.  and some activity that gives results (and dopamine :) so let's have some fun building you a blog you a modern blog you can manage from your phone or anywhere once live.
+
+To follow along, a few tool are reqired to be installed:
+
+- node or nvm
+- git
+- vscode
+
+And accounts with a these cloud services be required:
+
+- github
+- netlify
+
+**Setup Walkthrough Coming Soon
+
+
+
+
+ou'll need to have installed node, 
+
+
+
+ Maybe soon I'll write a buzzword glossary, but this first 
+
+ (especially for all you technical recruiters out there (not mad, just jealous and want mo my money ;)
+
+  
+
+To get started, 
+Tools: 
+
+
+Many people are interested in learning to code, nowdays more than ever. Many people have learned a little about coding and decided it's not for them. Whether you're interested in learning to code, or would maybe consider giving it another try, or are an experienced developer interested in new, effecient, fast, and cheap web development and hosting options, this vlog post is for you. Programming doesn't have to be so complicated. 
+
+
+
+
+
+
+Want to learn how to make fullstack 
+Don't know what don't you know? Join the club!
+
+cl
+
+
+
 
 Fullstack is an IT buzz word that's here to stay. This blog is going to start by teaching fullstack development in a different way than you've seen. senditagile is about communicating in plain english. The only way to really learn anything in depth is by immersion. Like anything you really want to get good at in life, if you really want to learn to code and develop, you can't pussyfoot, you have to dive in. One of the biggest challenges about coding is figuring out where to begin, what approach to take, because they're are sooo many. Hell, I'm still trying to figure that shit out but, after 15 years, I know most all of them and how we got here at all of them at this point. The solution is having a challenge to focus on that gives it all purpose, something not boring, and worth being immersed in. This blog is also going to be about teaching through demonstation. l   
 

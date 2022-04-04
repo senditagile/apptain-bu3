@@ -11,5 +11,5 @@ tags:
   - career
 ---
 
-Life has made me different, and I look at life different. This blog is my longtime brainchild and overcomplicated endeavour. apptain has been through several iterations, but this one is getting off the ground to fly. Everything happens in it's own time though, so buckle up to geek out the best way with a ride through. 
+d
 
