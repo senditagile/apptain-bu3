@@ -28,6 +28,7 @@ module.exports = ({ actions, graphql }) => {
               tags
               description
               headerImage
+              published
             }
           }
         }

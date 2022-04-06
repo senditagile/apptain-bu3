@@ -199,6 +199,7 @@ module.exports = {
                       tags
                       description
                       headerImage
+                      published
                     }
                   }
                 }
