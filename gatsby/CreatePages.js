@@ -1,5 +1,6 @@
 const path = require('path');
 const createPaginatedPages = require('gatsby-paginate');
+const IS_DEV = process.env.NODE_ENV === 'development';
 
 module.exports = ({ actions, graphql }) => {
   const { createPage } = actions;
@@ -57,7 +58,9 @@ module.exports = ({ actions, graphql }) => {
       },
     });
     
-    edges.forEach(({ node }, index) => {
+    
+    edges.filter(({ node }) => IS_DEV || node.frontmatter.published)
+    .forEach(({ node }, index) => {
       const { id, frontmatter, fields } = node;
       const { slug, tags, template } = frontmatter;
 

@@ -3,3 +3,6 @@
 TODOs
 
 Filter published
+Feed
+Connect RSS
+Readme

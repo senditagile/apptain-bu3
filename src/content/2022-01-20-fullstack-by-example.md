@@ -6,7 +6,7 @@ slug: fullstack-by-example
 date: 2022-01-20 12:46
 description: A different way of teaching fullstack software development
 headerImage: https://ucarecdn.com/4ab3efc9-4006-4e1e-8684-421cabb82acd/sendittelltheworld.png
-published: false
+published: true
 tags: 
   - fullstack
 ---
