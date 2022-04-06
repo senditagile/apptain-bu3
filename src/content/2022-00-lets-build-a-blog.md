@@ -11,6 +11,10 @@ tags:
   - fullstack
 ---
 
+Let's earn some passive income by building a brand and online presence. Even if you're not technical, giving this a read or watch will be worth your time. 
+
+Been working for a long time to figure out what to build. Too many ideas. Made several attempts but always struggled to finish putting something together to send and follow through sending. Got caught up in the process and overcomplicated things. 
+
 Tech jargon is a language no one grows up speaking. (put your sevant kid to work why don't you...) It can be painful to the ear for even the most hardcorde of us geeks. Who wants to learn a glossary of isoteric sounding names and acroymns? (you do?! coming soon..) 
 
 No pain, no gain. This won't hurt though.
