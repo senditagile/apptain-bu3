@@ -41,12 +41,12 @@ class BlogPost extends Component {
     const { frontmatter, id: graphqlId } = this.data.content.edges[0].node;
     const { title, id } = frontmatter;
 
-    const GitTalkInstance = new Gitalk({
-      ...gitalk,
-      title,
-      id: id || graphqlId,
-    });
-    GitTalkInstance.render('gitalk-container');
+    // const GitTalkInstance = new Gitalk({
+    //   ...gitalk,
+    //   title,
+    //   id: id || graphqlId,
+    // });
+    // GitTalkInstance.render('gitalk-container');
   }
 
   render() {

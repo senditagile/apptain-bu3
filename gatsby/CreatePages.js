@@ -60,8 +60,7 @@ module.exports = ({ actions, graphql }) => {
     });
     
     
-    edges.filter(({ node }) => IS_DEV || node.frontmatter.published)
-    .forEach(({ node }, index) => {
+    edges.forEach(({ node }, index) => {
       const { id, frontmatter, fields } = node;
       const { slug, tags, template } = frontmatter;
 

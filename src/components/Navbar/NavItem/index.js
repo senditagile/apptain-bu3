@@ -9,7 +9,7 @@ import Dropdown from './Dropdown';
 import './index.scss';
 
 const NavItem = ({ url, name, list }) => {
-  if (list.length === 0) {
+  // if (list.length === 0) {
     return (
       <Link
         className="nav-btn btn btn-link"
@@ -26,9 +26,9 @@ const NavItem = ({ url, name, list }) => {
         {name}
       </Link>
     );
-  }
+  // }
 
-  return <Dropdown title={name} list={list} />;
+  // return <Dropdown title={name} list={list} />;
 };
 
 NavItem.propTypes = {

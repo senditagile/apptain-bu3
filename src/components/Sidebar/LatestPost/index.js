@@ -14,7 +14,7 @@ const LatestPost = ({ posts }) => (
         key={node.frontmatter.url}
         href={'/' + node.frontmatter.url }
       >
-        {node.frontmatter.title}
+        {node.frontmatter.title.substring(0, node.frontmatter.title.indexOf('-'))}
       </Link>
     ))}
   </div>

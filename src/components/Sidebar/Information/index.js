@@ -10,11 +10,6 @@ import './index.scss';
 const Information = ({ totalCount, posts }) => (
   <div className="d-none d-lg-block information my-2">
     <hr />
-    <p>
-      {totalCount}: Posts
-      
-    </p>
-    <hr />
     <LatestPost posts={posts} />
     <hr />
     {/* <Friend /> */}
