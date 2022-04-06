@@ -5,7 +5,7 @@ id: build-a-blog
 slug: learn-code-build-website-blog-react-node-gatsby-netlify-ci-cd-free
 date: 2022-01-20 12:46
 description: From  experience level Ask you to install a few tools on your rig if you're following along.  got plenty of explanations and'll show 
-headerImage: https://ucarecdn.com/4ab3efc9-4006-4e1e-8684-421cabb82acd/sendittelltheworld.png
+headerImage: https://ucarecdn.com/dd19e74b-63e9-478b-9949-aa5293ab1a03/
 published: true
 tags: 
   - fullstack

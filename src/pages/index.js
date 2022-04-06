@@ -48,7 +48,7 @@ const HomePageTemplate = ({ data }) => {
       >
         <Sidebar />
         <div className="col-xl-6 col-lg-7 col-md-12 col-xs-12 order-2">
-        {data.filter(({ node }) => IS_DEV || node.frontmatter.published).map(({ node }) => (
+        {data.filter(({ node }) => node.frontmatter.published == true).map(({ node }) => (
             <Card {...node.frontmatter} url={data.slug ? data.slug : node.fields.slug} key={node.fields.slug} />
           ))}
 

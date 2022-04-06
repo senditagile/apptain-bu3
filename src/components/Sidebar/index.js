@@ -85,15 +85,19 @@ export default () => (
           tags
           description
           headerImage
+          published
         }
       }
 
       query SidebarQuery {
-        all: allMarkdownRemark {
+        all: allMarkdownRemark(
+          filter: { frontmatter: { published: { eq: true } } } 
+        ) {
           totalCount
         }
 
         limited: allMarkdownRemark(
+          filter: { frontmatter: { published: { eq: true } } } 
           sort: { order: DESC, fields: frontmatter___date }
           limit: 6
         ) {
