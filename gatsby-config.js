@@ -167,9 +167,10 @@ module.exports = {
 								return Object.assign({}, edge.node.frontmatter, {
 									description: edge.node.frontmatter.description || edge.node.excerpt,
 									date: edge.node.frontmatter.date,
-									author: settings.meta.author,
+									author: settings.name,
 									title: edge.node.frontmatter.title,
-									// categories: [edge.node.frontmatter.category],
+                  imageUrl: edge.node.frontmatter.headerImage,
+									tags: [edge.node.frontmatter.category],
 									url: settings.url + '/' + edge.node.frontmatter.slug,
 									guid: settings.url + '/' + edge.node.frontmatter.slug,
 									custom_elements: [
