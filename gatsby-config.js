@@ -172,13 +172,15 @@ module.exports = {
 									date: edge.node.frontmatter.date,
 									author: settings.name,
 									title: edge.node.frontmatter.title,
-                  image_url: edge.node.frontmatter.headerImage,
+
                   language: 'en',
                   categories: [edge.node.frontmatter.tags],
 									url: settings.url + '/' + edge.node.frontmatter.slug,
 									guid: settings.url + '/' + edge.node.frontmatter.slug,
+                  image_url: 'https://ucarecdn.com/19fb614c-7bbb-4f79-b8d6-bcc114a46083/',
 									custom_elements: [
 										{ 'content:encoded': edge.node.html },
+                    { 'image_url': 'https://ucarecdn.com/19fb614c-7bbb-4f79-b8d6-bcc114a46083/' }
 										//{ reading_time: edge.node.fields.readingTime.text },
 									],
 								});
