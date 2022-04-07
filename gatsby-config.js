@@ -170,8 +170,8 @@ module.exports = {
 									author: settings.meta.author,
 									title: edge.node.frontmatter.title,
 									// categories: [edge.node.frontmatter.category],
-									url: settings.meta.siteUrl + '/' + edge.node.frontmatter.slug,
-									guid: settings.meta.siteUrl + '/' + edge.node.frontmatter.slug,
+									url: settings.url + '/' + edge.node.frontmatter.slug,
+									guid: settings.url + '/' + edge.node.frontmatter.slug,
 									custom_elements: [
 										{ 'content:encoded': edge.node.html },
 										//{ reading_time: edge.node.fields.readingTime.text },
@@ -184,7 +184,6 @@ module.exports = {
               allMarkdownRemark(
                 limit: 1000
                 sort: { order: DESC, fields: frontmatter___date }
-                filter: { frontmatter: { published: { eq: true } } }
               ) {
                 edges {
                   node {

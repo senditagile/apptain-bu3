@@ -3,7 +3,7 @@ template: blog-post
 title: Build a Beautiful Modern Blog and Jumpstart Your Online Presense - React, Node, DevOps, Netlify, CMS, Gatsby, Static Site Generators, HTML, CSS, JavaScript - Speed Up Your Learning and Your Websites
 id: build-a-blog
 slug: learn-code-build-website-blog-react-node-gatsby-netlify-ci-cd-free
-date: 2022-01-20 12:46
+date: 2022-04-07 00:05
 description: Earn passive income by building a brand and online presence. Develop and deploy a blazing fast website, and you can be an experience fullstack developer in minutes, with your own cloud CMS, github source control repository, automated builds and releases, and your own snazzy blog to share your adventures from. 
 headerImage: https://ucarecdn.com/19fb614c-7bbb-4f79-b8d6-bcc114a46083/
 published: true
