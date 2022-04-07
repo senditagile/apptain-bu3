@@ -160,6 +160,9 @@ module.exports = {
 						title: settings.meta.title,
 						site_url: settings.url,
 						feed_url: `${settings.url}/rss.xml`,
+            managingEditor: settings.meta.title,
+            webMaster: settings.meta.title,
+            //copyright: todo move to settings
 						language: 'en',
 						ttl: 10080,
 						serialize: ({ query: { site, allMarkdownRemark } }) => {
@@ -169,8 +172,9 @@ module.exports = {
 									date: edge.node.frontmatter.date,
 									author: settings.name,
 									title: edge.node.frontmatter.title,
-                  imageUrl: edge.node.frontmatter.headerImage,
-									tags: [edge.node.frontmatter.category],
+                  image_url: edge.node.frontmatter.headerImage,
+                  language: 'en',
+                  categories: [edge.node.frontmatter.tags],
 									url: settings.url + '/' + edge.node.frontmatter.slug,
 									guid: settings.url + '/' + edge.node.frontmatter.slug,
 									custom_elements: [
